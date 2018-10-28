@@ -19,62 +19,17 @@ public class Main_Triangle {
         //按照题意有参实例化Triangle
         Triangle triangle = new Triangle(1, 1.5, 1, "Yellow", true);
         //输出依题意创建的triangle对象的信息
-        System.out.println(triangle.toString());
-    }
-}
-
-//由抽象父类GeometricObject派生的子类Triangle
-class Triangle extends GeometricObject{
-    double side1 = 1, side2 = 1, side3 = 1;
-
-    //Triangle的无参构造方法
-    public Triangle(){}
-
-    //Triangle的有参构造方法
-    public Triangle(double side1, double side2, double side3, String color, boolean filled){
-        super(color, filled);
-        this.side1 = side1;
-        this.side2 = side2;
-        this.side3 = side3;
-    }
-
-    //对外输出三边各自长度
-    public double getSide(String side){
-        if (side == "side1")
-            return side1;
-        else if (side == "side2")
-            return side2;
-        else
-            return side3;
-    }
-
-    //计算并对外输出面积
-    public double getArea(){
-        /**（海伦公式）
-         * p=(a+b+c)/2
-         * S=sqrt[p(p-a)(p-b)(p-c)]
-         */
-        double temp = this.getPerimeter()/2;
-        return Math.sqrt(temp*(temp-side1)*(temp-side2)*(temp-side3));
-    }
-
-    //计算并对外输出周长
-    public double getPerimeter(){
-        return side1 + side2 + side3;
-    }
-
-    //用于输出Triangle的字符串信息
-    public String toString(){
-        return "Triangle: side1 = " + side1 + ", side2 = " + side2 + ", side3 = " + side3 +
-                "\n" + super.toString();
+        System.out.println(triangle.toString() +
+                "\nArea: " + triangle.getArea() + ", getPerimeter: " + triangle.getPerimeter() +
+                "\n" + triangle.toStringGeo());
     }
 }
 
 //抽象父类GeometricObject
 abstract class GeometricObject{
-    String color;
-    boolean filled;
-    Date dateCreated;
+    private String color;
+    private boolean filled;
+    private Date dateCreated;
 
     //GeometricObject的无参构造方法，调用了Date类
     public GeometricObject(){
@@ -115,7 +70,53 @@ abstract class GeometricObject{
     }
 
     //用于输出GeometricObject的字符串信息
+    public String toStringGeo(){
+        return "Color: " + color + ", Filled: " + filled + "\nCreated on " + dateCreated;
+    }
+}
+
+//由抽象父类GeometricObject派生的子类Triangle
+class Triangle extends GeometricObject{
+    private double side1 = 1, side2 = 1, side3 = 1;
+
+    //Triangle的无参构造方法
+    public Triangle(){}
+
+    //Triangle的有参构造方法
+    public Triangle(double side1, double side2, double side3, String color, boolean filled){
+        super(color, filled);
+        this.side1 = side1;
+        this.side2 = side2;
+        this.side3 = side3;
+    }
+
+    //对外输出三边各自长度
+    public double getSide(String side){
+        if (side == "side1")
+            return side1;
+        else if (side == "side2")
+            return side2;
+        else
+            return side3;
+    }
+
+    //计算并对外输出面积
+    public double getArea(){
+        /**（海伦公式）
+         * p=(a+b+c)/2
+         * S=sqrt[p(p-a)(p-b)(p-c)]
+         */
+        double temp = this.getPerimeter()/2;
+        return Math.sqrt(temp*(temp-side1)*(temp-side2)*(temp-side3));
+    }
+
+    //计算并对外输出周长
+    public double getPerimeter(){
+        return side1 + side2 + side3;
+    }
+
+    //用于输出Triangle的字符串信息
     public String toString(){
-        return "Created on " + dateCreated + "\nColor: " + color + ", Filled: " + filled;
+        return "Triangle: side1 = " + side1 + ", side2 = " + side2 + ", side3 = " + side3;
     }
 }
