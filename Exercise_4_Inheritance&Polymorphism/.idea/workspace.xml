@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1dc8646c-5550-4259-956a-757679ebab07" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise_4_Inheritance&amp;Polymorphism/Exercise_3_Person/Faculty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercise_4_Inheritance&amp;Polymorphism/Exercise_3_Person/Faculty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise_4_Inheritance&amp;Polymorphism/Exercise_3_Person/Main_Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercise_4_Inheritance&amp;Polymorphism/Exercise_3_Person/Main_Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercise_4_Inheritance&amp;Polymorphism/Exercise_3_Person/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercise_4_Inheritance&amp;Polymorphism/Exercise_3_Person/Staff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise_3_Person/Main_Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise_3_Person/Main_Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise_4_Course/Main_Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise_4_Course/Main_Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PTA_Frount_Class_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PTA_Frount_Class_4/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,12 +35,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4290" />
+          <entry key="java" value="4583" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4290" />
+          <entry key="JAVA" value="4583" />
         </counts>
       </usages-collector>
     </session>
@@ -92,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exercise_3_Person/Main_Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+            <state relative-caret-position="2491">
+              <caret line="140" column="31" lean-forward="true" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#699#700#0" expanded="true" />
@@ -112,21 +110,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Exercise_4_Course/Main_Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="460">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#351#352#0" expanded="true" />
                 <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
                 <element signature="e#624#625#0" expanded="true" />
                 <element signature="e#663#664#0" expanded="true" />
                 <element signature="e#698#699#0" expanded="true" />
                 <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#1588#1589#0" expanded="true" />
+                <element signature="e#1620#1621#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,7 +163,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="885" />
     <option name="y" value="-19" />
     <option name="width" value="1400" />
@@ -250,7 +252,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540780381150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540793446272" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -270,7 +272,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main_Person">
+  <component name="RunManager" selected="Application.Main_Course">
+    <configuration name="Main_Course" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise_4_Course.Main_Course" />
+      <module name="Exercise_4_Inheritance&amp;Polymorphism" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercise_4_Course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main_Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise_3_Person.Main_Person" />
       <module name="Exercise_4_Inheritance&amp;Polymorphism" />
@@ -314,9 +329,11 @@
       <item itemvalue="Application.Main_Student" />
       <item itemvalue="Application.Main_Triangle" />
       <item itemvalue="Application.Main_Person" />
+      <item itemvalue="Application.Main_Course" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main_Course" />
         <item itemvalue="Application.Main_Person" />
         <item itemvalue="Application.Main_Triangle" />
         <item itemvalue="Application.Main_Student" />
@@ -334,18 +351,18 @@
       <option name="presentableId" value="Default" />
       <updated>1540434886417</updated>
       <workItem from="1540434889315" duration="7252000" />
-      <workItem from="1540505726340" duration="53368000" />
+      <workItem from="1540505726340" duration="61428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60620000" />
+    <option name="totallyTimeSpent" value="68680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -355,7 +372,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -439,28 +456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercise_4_Course/Main_Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise_3_Person/Main_Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+        <state relative-caret-position="2491">
+          <caret line="140" column="31" lean-forward="true" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#699#700#0" expanded="true" />
@@ -471,6 +470,28 @@
             <element signature="e#3807#3808#0" expanded="true" />
             <element signature="e#4179#4180#0" expanded="true" />
             <element signature="e#4217#4218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise_4_Course/Main_Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
           </folding>
         </state>
       </provider>
