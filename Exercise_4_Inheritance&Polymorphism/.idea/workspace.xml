@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dc8646c-5550-4259-956a-757679ebab07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exercise_4_Course/Main_Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise_4_Course/Main_Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PTA_Frount_Class_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PTA_Frount_Class_4/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,22 +23,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4583" />
+          <entry key="java" value="4976" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4583" />
+          <entry key="JAVA" value="4976" />
         </counts>
       </usages-collector>
     </session>
@@ -93,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exercise_3_Person/Main_Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2491">
+            <state relative-caret-position="1602">
               <caret line="140" column="31" lean-forward="true" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -110,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exercise_4_Course/Main_Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="864">
+              <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#351#352#0" expanded="true" />
@@ -127,8 +125,27 @@
                 <element signature="e#663#664#0" expanded="true" />
                 <element signature="e#698#699#0" expanded="true" />
                 <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#1588#1589#0" expanded="true" />
                 <element signature="e#1620#1621#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exercise_5_ArrayList/Main_ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/Exercise_2_Triangle/Main_Triangle.java" />
         <option value="$PROJECT_DIR$/src/Exercise_3_Person/Main_Person.java" />
         <option value="$PROJECT_DIR$/src/Exercise_4_Course/Main_Course.java" />
+        <option value="$PROJECT_DIR$/src/Exercise_5_ArrayList/Main_ArrayList.java" />
       </list>
     </option>
   </component>
@@ -193,53 +211,7 @@
               <item name="Exercise_4_Inheritance&amp;Polymorphism" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercise_4_Inheritance&amp;Polymorphism" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_1_Student" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_1_Student" type="462c0819:PsiDirectoryNode" />
-              <item name="Main_Student.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_2_Triangle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_2_Triangle" type="462c0819:PsiDirectoryNode" />
-              <item name="Main_Triangle.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_3_Person" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_3_Person" type="462c0819:PsiDirectoryNode" />
-              <item name="Main_Person.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_4_Course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercise_4_Inheritance&amp;Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercise_4_Course" type="462c0819:PsiDirectoryNode" />
-              <item name="Main_Course.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Exercise_5_ArrayList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,7 +224,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540793446272" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540806494431" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -272,7 +244,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main_Course">
+  <component name="RunManager" selected="Application.Main_ArrayList">
+    <configuration name="Main_ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise_5_ArrayList.Main_ArrayList" />
+      <module name="Exercise_4_Inheritance&amp;Polymorphism" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercise_5_ArrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main_Course" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise_4_Course.Main_Course" />
       <module name="Exercise_4_Inheritance&amp;Polymorphism" />
@@ -330,9 +315,11 @@
       <item itemvalue="Application.Main_Triangle" />
       <item itemvalue="Application.Main_Person" />
       <item itemvalue="Application.Main_Course" />
+      <item itemvalue="Application.Main_ArrayList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main_ArrayList" />
         <item itemvalue="Application.Main_Course" />
         <item itemvalue="Application.Main_Person" />
         <item itemvalue="Application.Main_Triangle" />
@@ -351,12 +338,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540434886417</updated>
       <workItem from="1540434889315" duration="7252000" />
-      <workItem from="1540505726340" duration="61428000" />
+      <workItem from="1540505726340" duration="69990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68680000" />
+    <option name="totallyTimeSpent" value="77242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -372,7 +359,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -408,8 +395,8 @@
     </entry>
     <entry file="jar://D:/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="249" column="58" lean-forward="true" selection-start-line="249" selection-start-column="58" selection-end-line="249" selection-end-column="58" />
+        <state relative-caret-position="172">
+          <caret line="244" column="18" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
           <folding>
             <element signature="e#10225#10226#0" expanded="true" />
             <element signature="e#10308#10309#0" expanded="true" />
@@ -458,7 +445,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise_3_Person/Main_Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2491">
+        <state relative-caret-position="1602">
           <caret line="140" column="31" lean-forward="true" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -476,8 +463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercise_4_Course/Main_Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="864">
+          <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#351#352#0" expanded="true" />
@@ -490,8 +477,25 @@
             <element signature="e#663#664#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
             <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#1588#1589#0" expanded="true" />
             <element signature="e#1620#1621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercise_5_ArrayList/Main_ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
           </folding>
         </state>
       </provider>

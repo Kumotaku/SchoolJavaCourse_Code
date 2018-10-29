@@ -36,7 +36,6 @@ class Course {
     private String courseName;
     //改写数组的创建方法
     ArrayList<String> students = new ArrayList<>();
-    private int numberOfStudents;
 
     public Course(String courseName){
         this.courseName = courseName;
