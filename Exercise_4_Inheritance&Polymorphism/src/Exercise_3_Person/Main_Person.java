@@ -29,11 +29,11 @@ public class Main_Person {
                 "Fz505", 5555, new MyDate("2018", "10", "28"),
                 "Duty-Stuff");
 
-        System.out.println(person.toString() + "\n" +
-                student.toString() + ", " + student.getGrade() + "\n" +
-                employee.toString() + ", " + employee.getEmployee() + "\n" +
-                faculty.toString() + ", " + faculty.getEmployee() + ", " + faculty.getFaculty() + "\n" +
-                staff.toString() + ", " + staff.getEmployee() + ", " + staff.getStuff());
+        System.out.println(person + "\n" +
+                student + ", " + student.getGrade() + "\n" +
+                employee + ", " + employee.getEmployee() + "\n" +
+                faculty + ", " + faculty.getEmployee() + ", " + faculty.getFaculty() + "\n" +
+                staff + ", " + staff.getEmployee() + ", " + staff.getStuff());
     }
 }
 
@@ -107,6 +107,7 @@ class Employee extends Person{
     }
 }
 
+/* 父类 Employee 的子类 Faculty */
 class Faculty extends Employee{
     private String workTime, level;
 
@@ -124,6 +125,7 @@ class Faculty extends Employee{
     }
 }
 
+/* 父类 Employee 的子类 Staff */
 class Staff extends Employee{
     private String duty;
 
